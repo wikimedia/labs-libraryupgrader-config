@@ -1,4 +1,5 @@
 {
+    "push": true,
     "composer": {
         "jakub-onderka/php-console-highlighter": [
             "0.4.0"

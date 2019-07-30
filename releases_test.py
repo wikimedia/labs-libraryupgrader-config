@@ -26,3 +26,4 @@ def test_releases():
     # Basic sanity check
     assert 'composer' in releases
     assert 'npm' in releases
+    assert releases['push'] in (True, False)
