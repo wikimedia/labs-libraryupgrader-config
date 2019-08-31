@@ -25,7 +25,7 @@
             "0.8.1"
         ],
         "eslint-config-wikimedia": [
-            "0.14.0"
+            "0.14.1"
         ],
         "grunt-eslint": [
             "21.0.0"
