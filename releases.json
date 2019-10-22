@@ -15,6 +15,9 @@
         ],
         "mediawiki-phan-config": [
             "0.8.0"
+        ],
+        "wikibase/wikibase-codesniffer": [
+            "1.0.0"
         ]
     },
     "npm": {
