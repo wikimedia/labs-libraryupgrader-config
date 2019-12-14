@@ -11,13 +11,10 @@
             "28.0.0"
         ],
         "mediawiki/mediawiki-phan-config": [
-            "0.8.0"
+            "0.9.0"
         ],
         "mediawiki/minus-x": [
             "0.3.2"
-        ],
-        "mediawiki-phan-config": [
-            "0.8.0"
         ],
         "wikibase/wikibase-codesniffer": [
             "1.0.0"
