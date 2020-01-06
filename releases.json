@@ -28,16 +28,22 @@
             "0.8.1"
         ],
         "eslint-config-wikimedia": [
-            "0.14.3"
+            "0.15.0"
         ],
         "grunt-eslint": [
-            "21.0.0"
+            "22.0.0"
+        ],
+        "eslint": [
+            "6.8.0"
         ],
         "stylelint-config-wikimedia": [
-            "0.7.0"
+            "0.8.0"
         ],
         "grunt-stylelint": [
-            "0.12.0"
+            "0.13.0"
+        ],
+        "stylelint": [
+            "0.12.1"
         ],
         "wdio-mediawiki": [
             "0.4.0"
