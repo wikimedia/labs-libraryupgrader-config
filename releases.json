@@ -16,6 +16,9 @@
         "mediawiki/minus-x": [
             "1.0.0"
         ],
+        "ockcyp/covers-validator": [
+            "1.1.1"
+        ],
         "wikibase/wikibase-codesniffer": [
             "1.0.0"
         ]
