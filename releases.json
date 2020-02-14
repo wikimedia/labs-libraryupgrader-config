@@ -40,13 +40,13 @@
             "6.8.0"
         ],
         "stylelint-config-wikimedia": [
-            "0.8.0"
+            "0.9.0"
         ],
         "grunt-stylelint": [
-            "0.13.0"
+            "0.14.0"
         ],
         "stylelint": [
-            "0.12.1"
+            "0.13.2"
         ],
         "wdio-mediawiki": [
             "0.4.0"
