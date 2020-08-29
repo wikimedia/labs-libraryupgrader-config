@@ -37,7 +37,7 @@
             "23.0.0"
         ],
         "eslint": [
-            "6.8.0"
+            "7.7.0"
         ],
         "stylelint-config-wikimedia": [
             "0.10.1"
@@ -46,7 +46,7 @@
             "0.15.0"
         ],
         "stylelint": [
-            "13.2.3"
+            "13.6.1"
         ],
         "wdio-mediawiki": [
             "0.4.0"
