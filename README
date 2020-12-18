@@ -4,9 +4,12 @@ Changes to releases.json should be picked up within 24-48 hours. Add whatever
 library you want LibUp to upgrade and it'll get to it, hopefully. Follow
 the format of the other entries in the file.
 
+It is YOUR responsibility to vet libraries being upgraded when you add them to
+the list.
+
 The canary repositories will go first, and once all of those are merged, it'll
 start on the rest of the repositories.
 
-It is YOUR responsibility to vet libraries being upgraded when you add them to
-the list.
+New repositories can be added in repositories.json. An entire namespace of
+repositories can be added by using a wildcard: `mediawiki/libs/*`.
 
