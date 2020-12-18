@@ -27,3 +27,14 @@ def test_releases():
     assert 'composer' in releases
     assert 'npm' in releases
     assert releases['push'] in (True, False)
+
+
+def test_repositories():
+    with open('repositories.json') as f:
+        repositories = json.load(f)
+
+    assert isinstance(repositories, dict)
+
+    # Sanity check
+    assert 'canaries' in repositories
+    assert 'repositories' in repositories
