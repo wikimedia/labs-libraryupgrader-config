@@ -27,9 +27,20 @@ def test_releases():
 
     # Basic sanity check
     assert isinstance(releases['version'], int)
+    assert releases['push'] in (True, False)
+
+    # Stuff we expect in master
     assert 'composer' in releases['master']
     assert 'npm' in releases['master']
-    assert releases['push'] in (True, False)
+
+    # Required keys
+    for branch in releases:
+        if branch in ('version', 'push'):
+            continue
+        for manager, updates in releases[branch].items():
+            for name, info in updates.items():
+                assert 'to' in info
+                assert 'weight' in info
 
 
 def test_repositories():
