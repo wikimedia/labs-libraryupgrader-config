@@ -66,7 +66,7 @@
                 "weight": 10
             },
             "stylelint": {
-                "to": "13.6.1",
+                "to": "13.8.0",
                 "weight": 10
             },
             "wdio-mediawiki": {
