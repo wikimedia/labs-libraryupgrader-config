@@ -74,5 +74,13 @@
                 "weight": 10
             }
         }
+    },
+    "REL1_31": {
+        "composer": {
+            "mediawiki/mediawiki-codesniffer": {
+                "to": "19.1.0",
+                "weight": 10
+            }
+        }
     }
 }
