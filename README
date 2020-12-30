@@ -1,15 +1,39 @@
 LibUp config
 
 Changes to releases.json should be picked up within 24-48 hours. Add whatever
-library you want LibUp to upgrade and it'll get to it, hopefully. Follow
-the format of the other entries in the file.
+library you want LibUp to upgrade and it'll get to it, hopefully.
 
 It is YOUR responsibility to vet libraries being upgraded when you add them to
 the list.
 
+== releases.json ==
+
+"version" is the internal LibUp config file schema.
+
+"push" set this to false to immediately stop LibUp in cases of breakage or errors.
+
+Each branch has its own object, and underneath that is the package managers. Each
+library object can have the following settings:
+
+"to" is the version string that LibUp should update the library to. This doesn't
+have to be a single version, it could be a semver expression like: "^2.5 || ^3".
+
+"weight" allows for having multiple updates happen in the same commit. LibUp will
+only push a patch to Gerrit if it has a weight of at least 10, so if a package is
+ready to be updated, but not critical enough to merit its own commit, you can set
+the weight to 5 and LibUp will wait for another update to come along before pushing
+the commit. This may be any integer value, but for simplicity it's recommended to
+be either 5 or 10.
+
+"skip" (optional) is a list of versions that should be skipped and not updated.
+These are evaluated by using prefix matching (specifically Python's str.startswith).
+
+== repositories.json ==
+
+New repositories can be added in this file. Please try to make sure the "libraryupgrader"
+Gerrit account has +2 permissions on these repositories (if possible).
+
 The canary repositories will go first, and once all of those are merged, it'll
 start on the rest of the repositories.
 
-New repositories can be added in repositories.json. An entire namespace of
-repositories can be added by using a wildcard: `mediawiki/libs/*`.
-
+An entire namespace of repositories can be added by using a wildcard: `mediawiki/libs/*`.
