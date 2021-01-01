@@ -76,6 +76,10 @@
             "mediawiki/mediawiki-codesniffer": {
                 "to": "19.1.0",
                 "weight": 10
+            },
+            "wikibase/wikibase-codesniffer": {
+                "to": "0.5.1",
+                "weight": 10
             }
         }
     }
