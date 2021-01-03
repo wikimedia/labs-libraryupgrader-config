@@ -47,5 +47,8 @@
         "wikipeg",
         "wikimedia/portals",
         "wikimedia/textcat"
+    ],
+    "ignore": [
+        "mediawiki/extensions/MediaWikiFarm"
     ]
 }

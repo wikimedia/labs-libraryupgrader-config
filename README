@@ -37,3 +37,5 @@ The canary repositories will go first, and once all of those are merged, it'll
 start on the rest of the repositories.
 
 An entire namespace of repositories can be added by using a wildcard: `mediawiki/libs/*`.
+
+Individual repositories can be ignored under the "ignore" key.
