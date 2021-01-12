@@ -74,8 +74,8 @@
     "REL1_31": {
         "composer": {
             "mediawiki/mediawiki-codesniffer": {
-                "to": "19.1.0",
-                "weight": 10
+                "to": "19.3.0",
+                "weight": 5
             },
             "wikibase/wikibase-codesniffer": {
                 "to": "0.5.1",
