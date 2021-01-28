@@ -7,7 +7,6 @@
         "mediawiki/skins/MonoBook",
         "mediawiki/tools/codesniffer",
         "mediawiki/tools/phan",
-        "mediawiki/tools/phan/SecurityCheckPlugin",
         "oojs/ui"
     ],
     "repositories": [
