@@ -12,7 +12,7 @@
                 "weight": 5
             },
             "mediawiki/mediawiki-codesniffer": {
-                "to": "34.0.0",
+                "to": "35.0.0",
                 "weight": 10,
                 "skip": [
                     "19.",
@@ -43,7 +43,7 @@
             },
             "eslint-config-wikimedia": {
                 "to": "0.18.1",
-                "weight": 5
+                "weight": 10
             },
             "grunt-eslint": {
                 "to": "23.0.0",
