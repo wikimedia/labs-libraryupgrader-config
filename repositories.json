@@ -45,7 +45,8 @@
         "wikimedia/lucene-explain-parser",
         "wikipeg",
         "wikimedia/portals",
-        "wikimedia/textcat"
+        "wikimedia/textcat",
+        "wvui"
     ],
     "ignore": [
         "mediawiki/extensions/MediaWikiFarm"
