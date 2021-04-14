@@ -1,5 +1,5 @@
 """
-Copyright (C) 2019-2020 Kunal Mehta <legoktm@member.fsf.org>
+Copyright (C) 2019-2021 Kunal Mehta <legoktm@debian.org>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,44 +20,62 @@ import pytest
 
 
 def test_releases():
-    with open('releases.json') as f:
+    with open("releases.json") as f:
         releases = json.load(f)
 
     assert isinstance(releases, dict)
 
     # Basic sanity check
-    assert isinstance(releases['version'], int)
-    assert releases['push'] in (True, False)
+    assert isinstance(releases["version"], int)
+    assert releases["push"] in (True, False)
 
     # Stuff we expect in master
-    assert 'composer' in releases['master']
-    assert 'npm' in releases['master']
+    assert "composer" in releases["master"]
+    assert "npm" in releases["master"]
 
     # Required keys
     for branch in releases:
-        if branch in ('version', 'push'):
+        if branch in ("version", "push"):
             continue
         for manager, updates in releases[branch].items():
             for name, info in updates.items():
-                assert 'to' in info
-                assert 'weight' in info
+                assert "to" in info
+                assert "weight" in info
 
 
 def test_repositories():
-    with open('repositories.json') as f:
+    with open("repositories.json") as f:
         repositories = json.load(f)
 
     assert isinstance(repositories, dict)
 
     # Sanity check
-    assert 'canaries' in repositories
-    assert 'repositories' in repositories
+    assert "canaries" in repositories
+    assert "repositories" in repositories
 
 
-@pytest.mark.parametrize('fname', ['releases.json', 'repositories.json'])
+def test_monitoring():
+    with open("monitoring.json") as f:
+        monitoring = json.load(f)
+    assert isinstance(monitoring["enabled"], bool)
+    for name, info in monitoring["projects"].items():
+        # name is set
+        assert "name" in info
+        # mode is a supported one:
+        assert info["mode"] in ["release-monitoring"]
+        # phab list is not empty
+        assert info["phab"]
+        for url in info["urls"]:
+            # version templating
+            assert "{version}" in url
+
+
+@pytest.mark.parametrize(
+    "fname", ["monitoring.json", "releases.json", "repositories.json"]
+)
 def test_formatting(fname):
     with open(fname) as f:
         raw = f.read()
     data = json.loads(raw, object_pairs_hook=OrderedDict)
-    expected = json.dumps(data, indent='    ') + '\n'
+    expected = json.dumps(data, indent="    ") + "\n"
     assert expected == raw
