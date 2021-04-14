@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "projects": {
+        "codesniffer": {
+            "name": "squizlabs/PHP_CodeSniffer",
+            "mode": "release-monitoring",
+            "id": 3593,
+            "phab": [
+                "#MediaWiki-CodeSniffer"
+            ],
+            "urls": [
+                "https://github.com/squizlabs/PHP_CodeSniffer/releases/tag/{version}"
+            ]
+        },
+        "pygments": {
+            "name": "Pygments",
+            "mode": "release-monitoring",
+            "id": 3986,
+            "phab": [
+                "#syntaxhighlight"
+            ],
+            "urls": [
+                "https://github.com/pygments/pygments/releases/tag/{version}"
+            ]
+        }
+    }
+}
