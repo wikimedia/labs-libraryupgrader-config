@@ -45,13 +45,20 @@ def test_releases():
 
 def test_repositories():
     with open("repositories.json") as f:
-        repositories = json.load(f)
+        repositories = json.load(f, object_pairs_hook=OrderedDict)
 
     assert isinstance(repositories, dict)
 
-    # Sanity check
-    assert "canaries" in repositories
-    assert "repositories" in repositories
+    assert repositories["canaries"] == \
+           list(sorted(repositories["canaries"])), "canaries not sorted"
+
+    sorted_repos = list(sorted(
+        repositories["repositories"],
+        # Things that end with * first, then by name
+        key=lambda r: (not r.endswith("*"), r))
+    )
+    assert repositories["repositories"] == \
+           sorted_repos, "repositories not sorted"
 
 
 def test_monitoring():

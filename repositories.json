@@ -43,9 +43,9 @@
         "utfnormal",
         "wikibase/javascript-api",
         "wikimedia/lucene-explain-parser",
-        "wikipeg",
         "wikimedia/portals",
         "wikimedia/textcat",
+        "wikipeg",
         "wvui"
     ],
     "ignore": [
