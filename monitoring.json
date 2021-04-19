@@ -12,6 +12,17 @@
                 "https://github.com/squizlabs/PHP_CodeSniffer/releases/tag/{version}"
             ]
         },
+        "covers-validator": {
+            "name": "covers-validator",
+            "mode": "release-monitoring",
+            "id": 192666,
+            "phab": [
+                "#LibUp"
+            ],
+            "urls": [
+                "https://github.com/oradwell/covers-validator/releases/tag/v{version}"
+            ]
+        },
         "php-parallel-lint": {
             "name": "PHP Parallel Lint",
             "mode": "release-monitoring",
