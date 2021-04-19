@@ -56,18 +56,24 @@ def test_repositories():
 
 def test_monitoring():
     with open("monitoring.json") as f:
-        monitoring = json.load(f)
+        monitoring = json.load(f, object_pairs_hook=OrderedDict)
     assert isinstance(monitoring["enabled"], bool)
     for name, info in monitoring["projects"].items():
         # name is set
         assert "name" in info
         # mode is a supported one:
         assert info["mode"] in ["release-monitoring"]
+        assert isinstance(info["id"], int)
         # phab list is not empty
         assert info["phab"]
+        for hashtag in info["phab"]:
+            assert hashtag.startswith("#")
         for url in info["urls"]:
             # version templating
             assert "{version}" in url
+    # Assert sorted
+    assert list(monitoring["projects"]) == \
+           list(sorted(monitoring["projects"])), "Projects not sorted"
 
 
 @pytest.mark.parametrize(
