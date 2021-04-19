@@ -39,3 +39,20 @@ start on the rest of the repositories.
 An entire namespace of repositories can be added by using a wildcard: `mediawiki/libs/*`.
 
 Individual repositories can be ignored under the "ignore" key.
+
+== monitoring.json ==
+
+Upstream release monitoring is configured in this file.
+
+"enabled" is a safety switch in case this goes haywire.
+
+Each project to monitor goes under the "projects" key.
+
+The key used for each project is how it's stored in the database, typically all
+lowercase with no spaces. It doesn't truly matter, just needs to be unique.
+
+"name": Human-readable name, used in Phabricator tickets
+"mode": Monitoring backend to use, only "release-monitoring" is supported now.
+"id": ID on release-monitoring.org
+"phab": List of Phabricator projects to file the task in, by hashtag
+"urls": URLs to provide in the Phabricator task, with {version} filled in.
