@@ -12,6 +12,17 @@
                 "https://github.com/squizlabs/PHP_CodeSniffer/releases/tag/{version}"
             ]
         },
+        "php-parallel-lint": {
+            "name": "PHP Parallel Lint",
+            "mode": "release-monitoring",
+            "id": 192621,
+            "phab": [
+                "#LibUp"
+            ],
+            "urls": [
+                "https://github.com/php-parallel-lint/PHP-Parallel-Lint/releases/tag/v{version}"
+            ]
+        },
         "pygments": {
             "name": "Pygments",
             "mode": "release-monitoring",
