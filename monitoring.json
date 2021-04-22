@@ -23,6 +23,17 @@
                 "https://github.com/oradwell/covers-validator/releases/tag/v{version}"
             ]
         },
+        "php-console-highlighter": {
+            "name": "PHP Console Highlighter",
+            "mode": "release-monitoring",
+            "id": 192663,
+            "phab": [
+                "#LibUp"
+            ],
+            "urls": [
+                "https://github.com/php-parallel-lint/PHP-Console-Highlighter/releases/tag/v{version}"
+            ]
+        },
         "php-parallel-lint": {
             "name": "PHP Parallel Lint",
             "mode": "release-monitoring",
