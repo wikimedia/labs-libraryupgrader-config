@@ -12,6 +12,20 @@
                 "https://github.com/squizlabs/PHP_CodeSniffer/releases/tag/{version}"
             ]
         },
+        "composer-semver": {
+            "name": "composer/semver",
+            "mode": "release-monitoring",
+            "id": 7707,
+            "phab": [
+                "#MediaWiki-CodeSniffer",
+                "#MediaWiki-General",
+                "#MediaWiki-Vendor",
+                "#Parsoid"
+            ],
+            "urls": [
+                "https://github.com/composer/semver/releases/tag/{version}"
+            ]
+        },
         "covers-validator": {
             "name": "covers-validator",
             "mode": "release-monitoring",
@@ -21,6 +35,55 @@
             ],
             "urls": [
                 "https://github.com/oradwell/covers-validator/releases/tag/v{version}"
+            ]
+        },
+        "lightncandy": {
+            "name": "lightncandy",
+            "mode": "release-monitoring",
+            "id": 7723,
+            "phab": [
+                "#MediaWiki-HTML-Templating",
+                "#MediaWiki-Vendor"
+            ],
+            "urls": [
+                "https://github.com/zordius/lightncandy/releases/tag/v{version}",
+                "https://github.com/zordius/lightncandy/blob/v{version}/HISTORY.md"
+            ]
+        },
+        "pear-mail": {
+            "name": "pear/mail",
+            "mode": "release-monitoring",
+            "id": 194082,
+            "phab": [
+                "#MediaWiki-Email",
+                "#MediaWiki-Vendor"
+            ],
+            "urls": [
+                "https://pear.php.net/package/Mail/download/{version}"
+            ]
+        },
+        "pear-mail-mime": {
+            "name": "pear/mail_mime",
+            "mode": "release-monitoring",
+            "id": 194084,
+            "phab": [
+                "#MediaWiki-Email",
+                "#MediaWiki-Vendor"
+            ],
+            "urls": [
+                "https://pear.php.net/package/Mail_Mime/download/{version}"
+            ]
+        },
+        "pear-net-smtp": {
+            "name": "pear/net_smtp",
+            "mode": "release-monitoring",
+            "id": 194086,
+            "phab": [
+                "#MediaWiki-Email",
+                "#MediaWiki-Vendor"
+            ],
+            "urls": [
+                "https://pear.php.net/package/Net_SMTP/download/{version}"
             ]
         },
         "php-console-highlighter": {
@@ -45,6 +108,18 @@
                 "https://github.com/php-parallel-lint/PHP-Parallel-Lint/releases/tag/v{version}"
             ]
         },
+        "psr-log": {
+            "name": "psr/log",
+            "mode": "release-monitoring",
+            "id": 3617,
+            "phab": [
+                "#MediaWiki-Debug-Logger",
+                "#MediaWiki-Vendor"
+            ],
+            "urls": [
+                "https://github.com/php-fig/log/releases/tag/{version}"
+            ]
+        },
         "pygments": {
             "name": "Pygments",
             "mode": "release-monitoring",
@@ -54,6 +129,32 @@
             ],
             "urls": [
                 "https://github.com/pygments/pygments/releases/tag/{version}"
+            ]
+        },
+        "ralouphie/getallheaders": {
+            "name": "ralouphie/getallheaders",
+            "mode": "release-monitoring",
+            "id": 194092,
+            "phab": [
+                "#MediaWiki-libs-HTTP",
+                "#MediaWiki-Vendor"
+            ],
+            "urls": [
+                "https://github.com/ralouphie/getallheaders/releases/tag/{version}"
+            ]
+        },
+        "statsd-php-client": {
+            "name": "liuggio/statsd-php-client",
+            "mode": "release-monitoring",
+            "id": 6720,
+            "phab": [
+                "#MediaWiki-General",
+                "#MediaWiki-Vendor",
+                "#Parsoid"
+            ],
+            "urls": [
+                "https://github.com/liuggio/statsd-php-client/releases/tag/v{version}",
+                "https://github.com/liuggio/statsd-php-client/blob/v{version}/CHANGELOG.md"
             ]
         }
     }
