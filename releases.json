@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "push": true,
+    "push": false,
     "master": {
         "composer": {
             "php-parallel-lint/php-console-highlighter": {
