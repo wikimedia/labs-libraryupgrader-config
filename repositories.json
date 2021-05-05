@@ -33,6 +33,7 @@
         "mediawiki/oauthclient-php",
         "mediawiki/vendor",
         "oojs/core",
+        "oojs/router",
         "oojs/ui",
         "performance/arc-lamp",
         "php-session-serializer",
