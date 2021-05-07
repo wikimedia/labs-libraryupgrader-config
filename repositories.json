@@ -38,6 +38,7 @@
         "performance/arc-lamp",
         "php-session-serializer",
         "purtle",
+        "pywikibot/i18n",
         "testing-access-wrapper",
         "translatewiki",
         "unicodejs",
