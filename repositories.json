@@ -43,6 +43,7 @@
         "unicodejs",
         "utfnormal",
         "wikibase/javascript-api",
+        "wikidata/query-builder",
         "wikimedia/lucene-explain-parser",
         "wikimedia/portals",
         "wikimedia/textcat",
