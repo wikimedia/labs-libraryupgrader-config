@@ -38,6 +38,8 @@ start on the rest of the repositories.
 
 An entire namespace of repositories can be added by using a wildcard: `mediawiki/libs/*`.
 
+The `mediawiki/extensions/*` and `mediawiki/skins/*` namespaces are automatically added.
+
 Individual repositories can be ignored under the "ignore" key.
 
 == monitoring.json ==
