@@ -48,6 +48,7 @@
         "wikimedia/lucene-explain-parser",
         "wikimedia/portals",
         "wikimedia/textcat",
+        "wikimedia/toolhub",
         "wikipeg",
         "wvui"
     ],
