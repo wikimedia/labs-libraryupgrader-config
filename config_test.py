@@ -29,9 +29,9 @@ def test_releases():
     assert isinstance(releases["version"], int)
     assert releases["push"] in (True, False)
 
-    # Stuff we expect in master
-    assert "composer" in releases["master"]
-    assert "npm" in releases["master"]
+    # Stuff we expect in main
+    assert "composer" in releases["main"]
+    assert "npm" in releases["main"]
 
     # Required keys
     for branch in releases:
