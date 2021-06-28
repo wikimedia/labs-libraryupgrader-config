@@ -49,6 +49,7 @@
         "utfnormal",
         "wikibase/javascript-api",
         "wikidata/query-builder",
+        "wikimedia-ui-base",
         "wikimedia/irc/ircservserv",
         "wikimedia/lucene-explain-parser",
         "wikimedia/portals",
