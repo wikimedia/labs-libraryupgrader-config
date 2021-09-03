@@ -20,7 +20,7 @@
                 ]
             },
             "mediawiki/mediawiki-phan-config": {
-                "to": "0.10.6",
+                "to": "0.11.0",
                 "weight": 10
             },
             "mediawiki/minus-x": {
