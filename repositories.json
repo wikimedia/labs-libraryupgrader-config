@@ -6,8 +6,7 @@
         "mediawiki/extensions/VisualEditor",
         "mediawiki/skins/MonoBook",
         "mediawiki/tools/codesniffer",
-        "mediawiki/tools/phan",
-        "oojs/ui"
+        "mediawiki/tools/phan"
     ],
     "repositories": [
         "mediawiki/libs/*",
