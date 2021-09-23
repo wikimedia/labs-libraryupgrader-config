@@ -131,6 +131,18 @@
                 "https://github.com/pygments/pygments/releases/tag/{version}"
             ]
         },
+        "pywikibot": {
+            "name": "Pywikibot",
+            "mode": "release-monitoring",
+            "id": 62723,
+            "phab": [
+                "#paws"
+            ],
+            "urls": [
+                "https://gerrit.wikimedia.org/g/pywikibot/core/+/refs/tags/{version}",
+                "https://doc.wikimedia.org/pywikibot/stable/changelog.html"
+            ]
+        },
         "ralouphie/getallheaders": {
             "name": "ralouphie/getallheaders",
             "mode": "release-monitoring",

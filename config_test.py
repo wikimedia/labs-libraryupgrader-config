@@ -76,8 +76,7 @@ def test_monitoring():
         for hashtag in info["phab"]:
             assert hashtag.startswith("#")
         for url in info["urls"]:
-            # version templating
-            assert "{version}" in url
+            assert url.startswith('https://')
     # Assert sorted
     assert list(monitoring["projects"]) == \
            list(sorted(monitoring["projects"])), "Projects not sorted"
