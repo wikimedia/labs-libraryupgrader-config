@@ -90,23 +90,5 @@
                 "weight": 10
             }
         }
-    },
-    "REL1_31": {
-        "composer": {
-            "mediawiki/mediawiki-codesniffer": {
-                "to": "19.4.0",
-                "weight": 5
-            },
-            "wikibase/wikibase-codesniffer": {
-                "to": "0.5.1",
-                "weight": 10
-            }
-        },
-        "npm": {
-            "grunt": {
-                "to": "1.4.0",
-                "weight": 10
-            }
-        }
     }
 }
