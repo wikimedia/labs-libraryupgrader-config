@@ -12,7 +12,7 @@
                 "weight": 5
             },
             "mediawiki/mediawiki-codesniffer": {
-                "to": "37.0.0",
+                "to": "38.0.0",
                 "weight": 10,
                 "skip": [
                     "19.",
