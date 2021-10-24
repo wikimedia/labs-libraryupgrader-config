@@ -34,8 +34,8 @@
         },
         "npm": {
             "grunt": {
-                "to": "1.4.0",
-                "weight": 10
+                "to": "1.4.1",
+                "weight": 0
             },
             "grunt-banana-checker": {
                 "to": "0.9.0",
