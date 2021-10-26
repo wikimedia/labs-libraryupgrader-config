@@ -68,10 +68,6 @@
             "wdio-mediawiki": {
                 "to": "0.4.0",
                 "weight": 10
-            },
-            "wdio-video-reporter": {
-                "to": "3.1.1",
-                "weight": 10
             }
         }
     },
