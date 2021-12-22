@@ -50,6 +50,17 @@
                 "https://github.com/zordius/lightncandy/blob/v{version}/HISTORY.md"
             ]
         },
+        "openrefine": {
+            "name": "OpenRefine",
+            "mode": "release-monitoring",
+            "id": 241756,
+            "phab": [
+                "#paws"
+            ],
+            "urls": [
+                "https://github.com/OpenRefine/OpenRefine/releases/tag/{version}"
+            ]
+        },
         "pear-mail": {
             "name": "pear/mail",
             "mode": "release-monitoring",
