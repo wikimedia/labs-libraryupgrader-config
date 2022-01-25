@@ -76,6 +76,16 @@
         }
     },
     "REL1_36": {
+        "composer": {
+            "mediawiki/mediawiki-codesniffer": {
+                "to": "38.0.0",
+                "weight": 10,
+                "skip": [
+                    "19.",
+                    "26."
+                ]
+            }
+        },
         "npm": {
             "grunt": {
                 "to": "1.4.0",
@@ -84,6 +94,16 @@
         }
     },
     "REL1_35": {
+        "composer": {
+            "mediawiki/mediawiki-codesniffer": {
+                "to": "38.0.0",
+                "weight": 10,
+                "skip": [
+                    "19.",
+                    "26."
+                ]
+            }
+        },
         "npm": {
             "grunt": {
                 "to": "1.4.0",
