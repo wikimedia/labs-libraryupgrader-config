@@ -65,6 +65,10 @@
                 "to": "14.0.0",
                 "weight": 10
             },
+            "svgo": {
+                "to": "2.8.0",
+                "weight": 10
+            },
             "wdio-mediawiki": {
                 "to": "1.2.0",
                 "weight": 10
