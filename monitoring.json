@@ -37,6 +37,17 @@
                 "https://github.com/oradwell/covers-validator/releases/tag/v{version}"
             ]
         },
+        "jvmquake": {
+            "name": "jvmquake",
+            "mode": "release-monitoring",
+            "id": 242909,
+            "phab": [
+                "#Wikidata-Query-Service"
+            ],
+            "urls": [
+                "https://github.com/Netflix-Skunkworks/jvmquake/releases/tag/v{version}"
+            ]
+        },
         "lightncandy": {
             "name": "lightncandy",
             "mode": "release-monitoring",
