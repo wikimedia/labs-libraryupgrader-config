@@ -58,3 +58,8 @@ lowercase with no spaces. It doesn't truly matter, just needs to be unique.
 "id": ID on release-monitoring.org
 "phab": List of Phabricator projects to file the task in, by hashtag
 "urls": URLs to provide in the Phabricator task, with {version} filled in.
+
+== branches.json ==
+
+Simple list of supported branches libup should work on.
+If a branch gets deleted here, all the metadata on the website is also removed.

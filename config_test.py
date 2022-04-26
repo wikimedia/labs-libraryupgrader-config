@@ -22,6 +22,8 @@ import pytest
 def test_releases():
     with open("releases.json") as f:
         releases = json.load(f)
+    with open("branches.json") as f:
+        branches = json.load(f)
 
     assert isinstance(releases, dict)
 
@@ -37,6 +39,7 @@ def test_releases():
     for branch in releases:
         if branch in ("version", "push"):
             continue
+        assert branch in branches["list"]
         for manager, updates in releases[branch].items():
             for name, info in updates.items():
                 assert "to" in info
@@ -82,8 +85,28 @@ def test_monitoring():
            list(sorted(monitoring["projects"])), "Projects not sorted"
 
 
+def test_branches():
+    with open("branches.json") as f:
+        branches = json.load(f)
+    assert isinstance(branches, dict)
+    # branch list is not empty
+    assert branches["list"]
+    for branch in branches["list"]:
+        assert isinstance(branch, str)
+        if branch == "main":
+            continue
+        assert branch.startswith("REL"), "Only release branches"
+    # Do not remove main
+    assert "main" in branches["list"]
+    # Assert sorted to assume main is always before REL (check only relno)
+    assert branches["list"] == \
+           sorted(branches["list"], key=lambda b: b.lower()), \
+           "Branches not sorted"
+
+
 @pytest.mark.parametrize(
-    "fname", ["monitoring.json", "releases.json", "repositories.json"]
+    "fname",
+    ["monitoring.json", "releases.json", "repositories.json", "branches.json"]
 )
 def test_formatting(fname):
     with open(fname) as f:
