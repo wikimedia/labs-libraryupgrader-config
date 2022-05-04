@@ -53,6 +53,7 @@
         "wikimedia/irc/ircservserv",
         "wikimedia/lucene-explain-parser",
         "wikimedia/portals",
+        "wikimedia/slimapp",
         "wikimedia/textcat",
         "wikimedia/toolhub",
         "wikipeg",
