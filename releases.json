@@ -12,12 +12,8 @@
                 "weight": 5
             },
             "mediawiki/mediawiki-codesniffer": {
-                "to": "38.0.0",
-                "weight": 10,
-                "skip": [
-                    "19.",
-                    "26."
-                ]
+                "to": "39.0.0",
+                "weight": 10
             },
             "mediawiki/mediawiki-phan-config": {
                 "to": "0.11.1",
