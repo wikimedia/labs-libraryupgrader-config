@@ -26,6 +26,7 @@
         "cdb",
         "css-sanitizer",
         "data-values/value-view",
+        "design/codex",
         "integration/docroot",
         "labs/tools/coverme",
         "labs/tools/logo-test",
