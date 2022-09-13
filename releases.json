@@ -89,15 +89,15 @@
                 "weight": 10
             },
             "@wikimedia/codex": {
-                "to": "0.1.1",
+                "to": "0.2.1",
                 "weight": 10
             },
             "@wikimedia/codex-icons": {
-                "to": "0.1.1",
+                "to": "0.2.1",
                 "weight": 10
             },
             "@wikimedia/codex-search": {
-                "to": "0.1.1",
+                "to": "0.2.1",
                 "weight": 10
             }
         }
