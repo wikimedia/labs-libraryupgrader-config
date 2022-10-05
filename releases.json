@@ -24,7 +24,7 @@
                 "weight": 0
             },
             "ockcyp/covers-validator": {
-                "to": "1.4.0",
+                "to": "1.6.0",
                 "weight": 5
             }
         },
