@@ -1,7 +1,6 @@
 {
     "canaries": [
         "mediawiki/extensions/AbuseFilter",
-        "mediawiki/extensions/GlobalWatchlist",
         "mediawiki/extensions/UploadWizard",
         "mediawiki/extensions/VisualEditor",
         "mediawiki/skins/MonoBook",
