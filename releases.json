@@ -106,6 +106,22 @@
             }
         }
     },
+    "REL1_39": {
+        "npm": {
+            "grunt": {
+                "to": "1.5.3",
+                "weight": 10
+            }
+        }
+    },
+    "REL1_38": {
+        "npm": {
+            "grunt": {
+                "to": "1.5.3",
+                "weight": 10
+            }
+        }
+    },
     "REL1_35": {
         "composer": {
             "mediawiki/mediawiki-codesniffer": {
