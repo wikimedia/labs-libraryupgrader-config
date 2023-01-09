@@ -37,6 +37,17 @@
                 "https://github.com/oradwell/covers-validator/releases/tag/v{version}"
             ]
         },
+        "imposm3": {
+            "name": "imposm3",
+            "mode": "release-monitoring",
+            "id": 320165,
+            "phab": [
+                "#maps"
+            ],
+            "urls": [
+                "https://github.com/omniscale/imposm3/releases/tag/v{version}"
+            ]
+        },
         "jvmquake": {
             "name": "jvmquake",
             "mode": "release-monitoring",
