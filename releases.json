@@ -56,6 +56,10 @@
                 "to": "8.31.0",
                 "weight": 10
             },
+            "qunit": {
+                "to": "2.19.4",
+                "weight": 10
+            },
             "stylelint-config-wikimedia": {
                 "to": "0.13.1",
                 "weight": 10
