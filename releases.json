@@ -61,7 +61,7 @@
                 "weight": 10
             },
             "stylelint-config-wikimedia": {
-                "to": "0.13.1",
+                "to": "0.14.0",
                 "weight": 10
             },
             "grunt-stylelint": {
