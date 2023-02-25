@@ -12,7 +12,7 @@
                 "weight": 5
             },
             "mediawiki/mediawiki-codesniffer": {
-                "to": "40.0.1",
+                "to": "41.0.0",
                 "weight": 10
             },
             "mediawiki/mediawiki-phan-config": {
