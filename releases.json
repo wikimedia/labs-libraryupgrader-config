@@ -13,10 +13,16 @@
             },
             "mediawiki/mediawiki-codesniffer": {
                 "to": "41.0.0",
+                "skip": [
+                    "39."
+                ],
                 "weight": 10
             },
             "mediawiki/mediawiki-phan-config": {
                 "to": "0.12.0",
+                "skip": [
+                    "0.11."
+                ],
                 "weight": 10
             },
             "mediawiki/minus-x": {
