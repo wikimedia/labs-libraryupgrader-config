@@ -83,6 +83,17 @@
                 "https://github.com/OpenRefine/OpenRefine/releases/tag/{version}"
             ]
         },
+        "openrefine-commonsextension": {
+            "name": "Wikimedia Commons Extension for OpenRefine",
+            "mode": "release-monitoring",
+            "id": 333740,
+            "phab": [
+                "#paws"
+            ],
+            "urls": [
+                "https://github.com/OpenRefine/CommonsExtension/releases/tag/v{version}"
+            ]
+        },
         "pear-mail": {
             "name": "pear/mail",
             "mode": "release-monitoring",
