@@ -120,6 +120,10 @@
             "@wikimedia/codex-search": {
                 "to": "0.8.0",
                 "weight": 10
+            },
+            "@wikimedia/mw-node-qunit": {
+                "to": "7.0.0",
+                "weight": 10
             }
         }
     },
