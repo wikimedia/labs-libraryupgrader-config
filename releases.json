@@ -51,7 +51,7 @@
                 "weight": 10
             },
             "eslint-config-wikimedia": {
-                "to": "0.24.0",
+                "to": "0.25.0",
                 "weight": 10
             },
             "grunt-eslint": {
