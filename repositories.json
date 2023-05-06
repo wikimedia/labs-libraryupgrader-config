@@ -56,8 +56,7 @@
         "wikimedia/slimapp",
         "wikimedia/textcat",
         "wikimedia/toolhub",
-        "wikipeg",
-        "wvui"
+        "wikipeg"
     ],
     "ignore": [
         "mediawiki/extensions/MediaWikiFarm"
