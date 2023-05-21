@@ -130,7 +130,7 @@
     "REL1_39": {
         "composer": {
             "phpunit/phpunit": {
-                "to": "^8.5|9.5.28",
+                "to": "^8.5",
                 "weight": 5
             }
         },
@@ -166,7 +166,7 @@
                 ]
             },
             "phpunit/phpunit": {
-                "to": "^8.5|9.5.28",
+                "to": "^8.5",
                 "weight": 5
             }
         },
