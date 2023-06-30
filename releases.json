@@ -141,20 +141,6 @@
             }
         }
     },
-    "REL1_38": {
-        "composer": {
-            "phpunit/phpunit": {
-                "to": "^8.5",
-                "weight": 5
-            }
-        },
-        "npm": {
-            "grunt": {
-                "to": "1.5.3",
-                "weight": 10
-            }
-        }
-    },
     "REL1_35": {
         "composer": {
             "mediawiki/mediawiki-codesniffer": {
