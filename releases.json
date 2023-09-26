@@ -47,7 +47,7 @@
                 "weight": 10
             },
             "grunt-banana-checker": {
-                "to": "0.11.0",
+                "to": "0.11.1",
                 "weight": 10
             },
             "eslint-config-wikimedia": {
