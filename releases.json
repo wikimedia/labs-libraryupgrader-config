@@ -106,15 +106,15 @@
                 "weight": 10
             },
             "@wikimedia/codex": {
-                "to": "1.0.0",
+                "to": "1.0.1",
                 "weight": 10
             },
             "@wikimedia/codex-design-tokens": {
-                "to": "1.0.0",
+                "to": "1.0.1",
                 "weight": 10
             },
             "@wikimedia/codex-icons": {
-                "to": "1.0.0",
+                "to": "1.0.1",
                 "weight": 10
             },
             "@wikimedia/mw-node-qunit": {
