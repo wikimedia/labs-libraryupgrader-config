@@ -187,6 +187,19 @@
                 "https://doc.wikimedia.org/pywikibot/stable/changelog.html"
             ]
         },
+        "pywikibot-toolforge": {
+            "name": "Pywikibot",
+            "mode": "release-monitoring",
+            "id": 62723,
+            "phab": [
+                "#toolforge"
+            ],
+            "urls": [
+                "https://wikitech.wikimedia.org/wiki/Portal:Toolforge/Admin/Pywikibot_image",
+                "https://gerrit.wikimedia.org/g/pywikibot/core/+/refs/tags/{version}",
+                "https://doc.wikimedia.org/pywikibot/stable/changelog.html"
+            ]
+        },
         "ralouphie/getallheaders": {
             "name": "ralouphie/getallheaders",
             "mode": "release-monitoring",
