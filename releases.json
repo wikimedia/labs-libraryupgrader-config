@@ -91,18 +91,14 @@
                 "weight": 10
             },
             "vue": {
-                "to": "3.2.37",
+                "to": "3.3.9",
                 "weight": 10,
                 "skip": [
                     "2."
                 ]
             },
-            "@vue/compat": {
-                "to": "3.2.37",
-                "weight": 10
-            },
             "@vue/compiler-sfc": {
-                "to": "3.2.37",
+                "to": "3.3.9",
                 "weight": 10
             },
             "@wikimedia/codex": {
