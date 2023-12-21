@@ -146,27 +146,5 @@
                 "weight": 10
             }
         }
-    },
-    "REL1_35": {
-        "composer": {
-            "mediawiki/mediawiki-codesniffer": {
-                "to": "38.0.0",
-                "weight": 10,
-                "skip": [
-                    "19.",
-                    "26."
-                ]
-            },
-            "phpunit/phpunit": {
-                "to": "^8.5",
-                "weight": 5
-            }
-        },
-        "npm": {
-            "grunt": {
-                "to": "1.5.3",
-                "weight": 10
-            }
-        }
     }
 }
