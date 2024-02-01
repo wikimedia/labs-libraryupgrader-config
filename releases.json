@@ -19,7 +19,7 @@
                 "weight": 10
             },
             "mediawiki/mediawiki-phan-config": {
-                "to": "0.12.1",
+                "to": "0.13.0",
                 "skip": [
                     "0.11."
                 ],
