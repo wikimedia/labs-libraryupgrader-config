@@ -34,7 +34,7 @@
                 "weight": 5
             },
             "phpunit/phpunit": {
-                "to": "9.5.28",
+                "to": "9.6.16",
                 "skip": [
                     "8."
                 ],
