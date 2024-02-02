@@ -63,7 +63,7 @@
                 "weight": 10
             },
             "qunit": {
-                "to": "2.19.4",
+                "to": "2.20.0",
                 "weight": 10
             },
             "stylelint-config-wikimedia": {
