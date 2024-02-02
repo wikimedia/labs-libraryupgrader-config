@@ -55,7 +55,7 @@
                 "weight": 10
             },
             "grunt-eslint": {
-                "to": "24.0.1",
+                "to": "24.3.0",
                 "weight": 5
             },
             "eslint": {
