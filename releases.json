@@ -75,7 +75,7 @@
                 "weight": 10
             },
             "stylelint": {
-                "to": "14.14.0",
+                "to": "15.10.1",
                 "weight": 10
             },
             "svgo": {
