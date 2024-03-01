@@ -78,6 +78,10 @@
                 "to": "15.10.1",
                 "weight": 10
             },
+            "browserslist-config-wikimedia": {
+                "to": "0.6.1",
+                "weight": 10
+            },
             "jsdoc": {
                 "to": "4.0.2",
                 "weight": 10
