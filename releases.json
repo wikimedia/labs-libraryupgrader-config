@@ -8,7 +8,7 @@
                 "weight": 5
             },
             "php-parallel-lint/php-parallel-lint": {
-                "to": "1.3.2",
+                "to": "1.4.0",
                 "weight": 5
             },
             "mediawiki/mediawiki-codesniffer": {
