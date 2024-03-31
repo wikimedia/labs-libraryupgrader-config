@@ -37,6 +37,18 @@
                 "https://github.com/oradwell/covers-validator/releases/tag/v{version}"
             ]
         },
+        "docker-hub-apcu": {
+            "name": "APCu",
+            "mode": "release-monitoring",
+            "id": 11010,
+            "phab": [
+                "#docker-hub-mediawiki"
+            ],
+            "urls": [
+                "https://pecl.php.net/package/APCu/{version}",
+                "https://github.com/krakjoe/apcu/releases/tag/v{version}"
+            ]
+        },
         "imposm3": {
             "name": "imposm3",
             "mode": "release-monitoring",
