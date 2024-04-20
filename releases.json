@@ -109,6 +109,10 @@
                     "2."
                 ]
             },
+            "@vue/compat": {
+                "to": "3.3.9",
+                "weight": 10
+            },
             "@vue/compiler-sfc": {
                 "to": "3.3.9",
                 "weight": 10
