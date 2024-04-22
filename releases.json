@@ -87,7 +87,7 @@
                 "weight": 10
             },
             "jsdoc-wmf-theme": {
-                "to": "0.0.13",
+                "to": "1.0.0",
                 "weight": 10
             },
             "svgo": {
